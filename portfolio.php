@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>thempleite - Responsive Website Template</title>
+    <title>Mic | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -30,7 +30,7 @@
 <!-- END HEAD -->
 <body>
     <div class="main-wrapper">
-        <div role="navigation" class="navbar navbar-default navbar-static-top">
+    <div role="navigation" class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="compressed">
                     <div class="navbar-header">
@@ -40,18 +40,18 @@
                                 class="icon-bar"></span><span class="icon-bar"></span>
                         </button>
                         <a href="#" class="navbar-brand compressed">
-                            <img src="assets/img/logo_condensed.png" alt="" data-src="assets/img/logo_condensed.png"
-                                data-src-retina="assets/img/logo2x.png" width="119" height="22" /></a>
+                        <img src="assets/img/logo_mic_sized.png" alt="" data-src="assets/img/logo_mic_sized.png"
+                                    data-src-retina="assets/img/logo2x.png" width="97" height="50" /></a>
                     </div>
                     <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="tour.php">Tour</a></li>
-                            <li><a href="portfolio.php">Portfolio</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="login.php">Login</a></li>
-                        </ul>
-                    </div>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="tour.php">Tour</a></li>
+                                <li><a href="portfolio.php">Portfolio</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="login.php">Login</a></li>
+                            </ul>
+                        </div>
                     <!--/.nav-collapse -->
                 </div>
             </div>
