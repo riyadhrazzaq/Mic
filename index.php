@@ -48,7 +48,7 @@
                             </button>
                             <a href="#" class="navbar-brand compressed">
                                 <img src="assets/img/logo_mic_sized.png" alt="" data-src="assets/img/logo_mic_sized.png"
-                                    data-src-retina="assets/img/logo2x.png" width="97" height="50" /></a>
+                                    data-src-retina="assets/img/logo_mic_sized.png" width="97" height="50" /></a>
                         </div>
                         <!-- scrolled nav -->
                         <div class="navbar-collapse collapse">
@@ -249,11 +249,11 @@
                                 -webkit-animation-delay: 0.2s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
                                 <div class="team-member">
                                     <div class="team-img">
-                                        <img src="assets/img/team/team_1.png" alt="">
+                                        <img src="assets/img/team/team_3.png" alt="">
                                         <div class="team-details text-center">
                                             <h5 class="team-title mb-10">
                                                 Riyadh Razzaq</h5>
-                                            <span>Founder & CEO</span>
+                                            <span>Hooman</span>
                                             <div class="socials mt-20">
                                                 <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i>
                                                 </a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope">
@@ -270,11 +270,11 @@
                                 -webkit-animation-delay: 0.4s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
                                 <div class="team-member mt-mdm-40">
                                     <div class="team-img">
-                                        <img src="assets/img/team/team_2.png" alt="">
+                                        <img src="assets/img/team/team_3.png" alt="">
                                         <div class="team-details text-center">
                                             <h5 class="team-title mb-10">
                                                 Maksudur Rahman</h5>
-                                            <span>CFO</span>
+                                            <span>Hooman</span>
                                             <div class="socials mt-20">
                                                 <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i>
                                                 </a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope">
@@ -295,7 +295,7 @@
                                         <div class="team-details text-center">
                                             <h5 class="team-title mb-10">
                                                 Rawnak Hossain</h5>
-                                            <span>CTO</span>
+                                            <span>Hooman</span>
                                             <div class="socials mt-20">
                                                 <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i>
                                                 </a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope">
@@ -330,7 +330,7 @@
                         </div>
                         <div class="col-md-3">
                             <h4 class="custom-font title">
-                                WEB APPS</h4>
+                                CONTENT CREATED</h4>
                             <h1 class="custom-font">
                                 <span class="number-animator" data-value="376" data-animation-duration="800">0</span></h1>
                             <div class="col-md-8 no-padding">
@@ -342,9 +342,9 @@
                         </div>
                         <div class="col-md-3">
                             <h4 class="custom-font title">
-                                LINE OF CODES</h4>
+                                HOURS</h4>
                             <h1 class="custom-font">
-                                <span class="number-animator" data-value="19,500" data-animation-duration="800">0</span></h1>
+                                <span class="number-animator" data-value="162" data-animation-duration="800">0</span></h1>
                             <div class="col-md-8 no-padding">
                                 <div class="progress transparent progress-small no-radius no-margin">
                                     <div class="progress-bar progress-bar-black animated-progress-bar" data-percentage="12%">
@@ -354,9 +354,9 @@
                         </div>
                         <div class="col-md-3">
                             <h4 class="custom-font title">
-                                PROJECTS COMPLETED</h4>
+                                ASSIGNMENT</h4>
                             <h1 class="custom-font">
-                                <span class="number-animator" data-value="19,403" data-animation-duration="800">0</span></h1>
+                                <span class="number-animator" data-value="19" data-animation-duration="800">0</span></h1>
                             <div class="col-md-8 no-padding">
                                 <div class="progress transparent progress-small no-radius no-margin">
                                     <div class="progress-bar progress-bar-black animated-progress-bar" data-percentage="85%">
@@ -378,10 +378,10 @@
                                     <img src="assets/img/testimonial_img1.png" alt="testimonal">
                                 </div>
                                 <div class="testimonial-user">
-                                    <span>John Donga</span> Greepit.com
+                                    <span>Lorem Ipsum</span>
                                 </div>
                                 <h3 class="normal text-center">
-                                    I have always received good service from the Frittt Templates. Timing and quality
+                                    I have always received good service from the Mic. Timing and quality
                                     have always met my expectations and everything is communicated in a professional
                                     and timely manner.
                                 </h3>
@@ -393,10 +393,10 @@
                                     <img src="assets/img/testimonial_img2.png" alt="testimonal">
                                 </div>
                                 <div class="testimoni   al-user">
-                                    <span>John Donga</span> Frittt.com
+                                    <span>Lorem Ipsum</span>
                                 </div>
                                 <h3 class="normal text-center">
-                                    We consider the Frittt Templates team a development partner who has proven to be
+                                    We consider the Mic team a development partner who has proven to be
                                     creative in problem resolution, reliable in time commitments, and overall consistent
                                     in meeting our expectations.
                                 </h3>
@@ -408,7 +408,7 @@
                                     <img src="assets/img/testimonial_img3.png" alt="testimonal">
                                 </div>
                                 <div class="testimonial-user">
-                                    <span>John Donga</span> www.Frittt.com
+                                    <span>Lorem Ipsum</span>
                                 </div>
                                 <h3 class="semi-bold text-center">
                                     The work was above and beyond what I could have expected. Excellent service all
@@ -452,7 +452,7 @@
                                 <p>
                                     Postal</p>
                                 <h3>
-                                    Dept. of CSE, University of Asia Pacific, DHK</h3>
+                                    Dept. of CSE, University of Asia Pacific, Dhaka</h3>
                             </div>
                         </div>
                     </div>
@@ -487,7 +487,7 @@
                             <address class="xs-no-padding  col-md-6 col-lg-6 col-sm-6  col-xs-12">
                                 7th Floor, Void Space<br>
                                 UAP Campus,<br>
-                                Farmgate, DHK.
+                                Farmgate, Dhaka.
                             </address>
                             <div class="xs-no-padding col-md-6 col-lg-6 col-sm-6">
                                 <div>

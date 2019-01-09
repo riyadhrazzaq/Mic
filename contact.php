@@ -24,6 +24,8 @@
     <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <!-- END CSS TEMPLATE -->
     <script type="text/javascript" src="assets/plugins/jquery-1.8.3.min.js"></script>
+   
+    
 </head>
 <!-- END HEAD -->
 <body >
@@ -43,11 +45,11 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="tour.html">Tour</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="tour.php">Tour</a></li>
+                            <li><a href="portfolio.php">Portfolio</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -112,20 +114,19 @@
                             <p class="no-margin">
                                 Sales</p>
                             <h2 class="custom-font text-black no-margin">
-                                (123) 456-7890</h2>
+                                (88) 01551955969</h2>
                             <p class="no-margin">
                                 Technical</p>
                             <h2 class="custom-font text-black no-margin">
-                                (111) 111-2233</h2>
+                                (88) 01725850432</h2>
                             <section class="p-t-20 p-b-20">
                                 <h4 class="title custom-font text-black">
                                     ADDRESS</h4>
                                 <ul class="address-list">
-                                    <li><i class="fa fa-map-marker"></i><strong>Address:</strong> 1234 Street Name, City
-                                        Name, United States</li>
-                                    <li><i class="fa fa-phone"></i><strong>Phone:</strong> (123) 456-7890</li>
-                                    <li><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:mail@example.com">
-                                        mail@example.com</a></li>
+                                    <li><i class="fa fa-map-marker"></i><strong>Address:</strong> University of Asia Pacific, Green Road, Dhaka</li>
+                                    <li><i class="fa fa-phone"></i><strong>Phone:</strong> (88) 01551955969</li>
+                                    <li><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:riyadh.razzaq@gmail.com">
+                                        hey@mic.com </a></li>
                                 </ul>
                             </section>
                         </div>
@@ -134,58 +135,6 @@
             </div>
         </div>
         <div class="section white" style="height: 350px" id="map">
-        </div>
-        <div class="section grey">
-            <div class="container">
-                <div class="p-t-60 p-b-50">
-                    <div id="testomonials" class="owl-carousel row">
-                        <div class="item">
-                            <div class="col-md-6  col-md-offset-3 text-center">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/img/testimonial_img1.png" alt="testimonal">
-                                </div>
-                                <div class="testimonial-user">
-                                    <span>John Donga</span> Greepit.com
-                                </div>
-                                <h3 class="normal text-center">
-                                    I have always received good service from the Frittt Templates. Timing and quality
-                                    have always met my expectations and everything is communicated in a professional
-                                    and timely manner.
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-6   col-md-offset-3 text-center">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/img/testimonial_img2.png" alt="testimonal">
-                                </div>
-                                <div class="testimonial-user">
-                                    <span>John Donga</span> Frittt.com
-                                </div>
-                                <h3 class="normal text-center">
-                                    We consider the Frittt Templates team a development partner who has proven to be
-                                    creative in problem resolution, reliable in time commitments, and overall consistent
-                                    in meeting our expectations.
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-6   col-md-offset-3 text-center">
-                                <div class="testimonial-thumb">
-                                    <img src="assets/img/testimonial_img3.png" alt="testimonal">
-                                </div>
-                                <div class="testimonial-user">
-                                    <span>John Donga</span> www.Frittt.com
-                                </div>
-                                <h3 class="semi-bold text-center">
-                                    The work was above and beyond what I could have expected. Excellent service all
-                                    the way around from start to finish. Keep up the GREAT work! Great job!
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="section black contact-details green-icons">
             <div class="container">
@@ -197,7 +146,7 @@
                                 <p>
                                     Phone</p>
                                 <h3>
-                                    +1 555 666 9999</h3>
+                                    +880 15519535969</h3>
                             </div>
                         </div>
                     </div>
@@ -208,7 +157,7 @@
                                 <p>
                                     E-mail</p>
                                 <h3>
-                                    letstalk@thempleite.com</h3>
+                                    letstalk@mic.com</h3>
                             </div>
                         </div>
                     </div>
@@ -219,18 +168,18 @@
                                 <p>
                                     Postal</p>
                                 <h3>
-                                    32-Grey Suite, NY</h3>
+                                    Dept. of CSE, University of Asia Pacific, Dhaka</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="services-box-3">
-                            <i class="fa fa-pinterest-square"></i>
+                            <i class="fa fa-facebook-square"></i>
                             <div class="content">
                                 <p>
-                                    Pinterest</p>
+                                    Facebook</p>
                                 <h3>
-                                    pinterest.com/frittt</h3>
+                                   facebook.com/mic</h3>
                             </div>
                         </div>
                     </div>
@@ -242,24 +191,24 @@
                 <div class="p-t-30 p-b-50">
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 xs-m-b-20">
-                            <img src="assets/img/logo_condensed.png" alt="" data-src="assets/img/logo_condensed.png"
-                                data-src-retina="assets/img/logo2x.png" width="119" height="22" />
+                            <img src="assets/img/logo_mic_sized.png" alt="" data-src="assets/img/logo_mic_sized.png"
+                                data-src-retina="assets/img/logo2x.png" width="97" height="50" />
                             <br />
                             <br />
-                            © Frittt Templates.
+                            © Mic.
                             <br />
                             All Rights Reserved.
                         </div>
                         <div class="col-md-4 col-lg-3 col-sm-4  col-xs-12 xs-m-b-20">
                             <address class="xs-no-padding  col-md-6 col-lg-6 col-sm-6  col-xs-12">
-                                32 - Grey Suite<br>
-                                Odd Street,<br>
-                                NY, USA.
+                                7th Floor, Void Space<br>
+                                UAP Campus,<br>
+                                Farmgate, Dhaka.
                             </address>
                             <div class="xs-no-padding col-md-6 col-lg-6 col-sm-6">
                                 <div>
-                                    (1) 555 666 9999</div>
-                                <a href="javascript:">letstalk@thempleite.com</a>
+                                    +880 155 195 5969</div>
+                                <a href="javascript:">letstalk@mic.com</a>
                             </div>
                             <div class="clearfix">
                             </div>
@@ -267,10 +216,10 @@
                         <div class="col-md-2 col-lg-2 col-sm-2  col-xs-12 xs-m-b-20">
                             <div class="bold">
                                 We Are Hiring</div>
-                            Send you resume at <a href="javascript:">careers@thempleite.com</a>
+                            Send you resume at <a href="javascript:">careers@mic.com</a>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2  col-xs-12 ">
-                            <div class="bold">
+                            <div class="bold">  
                                 FOLLOW US</div>
                             <br />
                             <a href="javascript:"><i class="fa fa-facebook fa-2x"></i></a>&nbsp; <a href="javascript:">
@@ -289,10 +238,21 @@
     <script src="assets/plugins/boostrapv3/js/bootstrap.min.js" type="text/javascript"></script>
     <!-- END CORE JS FRAMEWORK -->
     <!-- BEGIN JS PLUGIN -->
+   
     <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="assets/plugins/jquery-nicescroll/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap" async defer>
+    </script>
     <script src="assets/plugins/jquery-gmap/gmaps.js" type="text/javascript"></script>
     <!-- END JS PLUGIN -->
     <script src="assets/js/google_maps.js" type="text/javascript"></script>

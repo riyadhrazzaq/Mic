@@ -45,11 +45,11 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="tour.html">Tour</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="tour.php">Tour</a></li>
+                            <li><a href="portfolio.php">Portfolio</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -65,19 +65,7 @@
                                 <h2>
                                     Portfolio</h2>
                             </div>
-                            <div class="col-md-6 p-t-20 xs-no-padding xs-p-l-20">
-                                <div class="portfolio-filter">
-                                    <ul id="portfolio-nav">
-                                        <li class="current"><a href="#" data-filter="*">All</a></li>
-                                        <li><a data-filter=".web" href="#">Web design</a></li>
-                                        <li><a data-filter=".logo-design" href="#">Logo</a></li>
-                                        <li><a data-filter=".branding" href="#">Branding</a></li>
-                                        <li><a data-filter=".video" href="#">Video</a></li>
-                                        <li><a data-filter=".photo" href="#">Photography</a></li>
-                                    </ul>
-                                    <!--END PORTFOLIO-NAV-->
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="clearfix">
@@ -92,7 +80,7 @@
                                     <div class="item-info-overlay">
                                         <div>
                                             <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Web design</h3>
+                                                Project Proposal</h3>
                                             <p class="project-description">
                                                 One Pager</p>
                                         </div>
@@ -100,243 +88,33 @@
                                 </div>
                                 <div class="item-info">
                                     <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Web design</h4>
+                                        Project Proposal</h4>
                                     <p>
-                                        April 18</p>
+                                        September 2</p>
                                 </div>
                                 <!--END ITEM-INFO-->
                                 <div class="clearfix">
                                 </div>
                             </li>
-                            <li class="item branding">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/2.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <a href="#" class="overlay-link"></a>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Profile Card</h3>
-                                            <p class="project-description">
-                                                Creative</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Profile Card</h4>
-                                    <p>
-                                        April 20</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item video">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/3.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Mobile App</h3>
-                                            <p class="project-description">
-                                                Mobile app for charts</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Mobile App</h4>
-                                    <p>
-                                        April 21</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item web">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/4.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Business Card</h3>
-                                            <p class="project-description">
-                                                Printing Project</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Business Card</h4>
-                                    <p>
-                                        April 22</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item photo">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/5.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Website design</h3>
-                                            <p class="project-description">
-                                                Creative Responsive Website</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Website design</h4>
-                                    <p>
-                                        April 25</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item branding">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/6.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Branding/Logo Design</h3>
-                                            <p class="project-description">
-                                                Company rebranding</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Branding/Logo Design</h4>
-                                    <p>
-                                        May 04</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item logo">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/7.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Logo Design</h3>
-                                            <p class="project-description">
-                                                A Logo</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Logo Design</h4>
-                                    <p>
-                                        May 04</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item logo">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/8.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Logo Design</h3>
-                                            <p class="project-description">
-                                                Logo Design & Pallete</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Logo Design</h4>
-                                    <p>
-                                        July 16</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item web">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/9.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Dribbble Meetup</h3>
-                                            <p class="project-description">
-                                                Invitation Artwork</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Dribbble Meetup</h4>
-                                    <p>
-                                        July 22</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item web">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/10.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Freehand</h3>
-                                            <p class="project-description">
-                                                Creative</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Freehand</h4>
-                                    <p>
-                                        July 28</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
-                            <li class="item web">
-                                <div class="portfolio-image-wrapper">
-                                    <img src="assets/img/gallery/11.jpg" alt="" />
-                                    <div class="item-info-overlay">
-                                        <div>
-                                            <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Abstract 3D</h3>
-                                            <p class="project-description">
-                                                Abstract</p>
-                                        </div>
-                                    </div>
-                                    <!--END ITEM-INFO-OVERLAY-->
-                                </div>
-                                <div class="item-info">
-                                    <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Abstract 3D</h4>
-                                    <p>
-                                        August 14</p>
-                                </div>
-                                <!--END ITEM-INFO-->
-                            </li>
+             
                             <li class="item web">
                                 <div class="portfolio-image-wrapper">
                                     <img src="assets/img/gallery/12.jpg" alt="" />
                                     <div class="item-info-overlay">
                                         <div>
                                             <h3 class="text-white semi-bold p-t-60 project-title ">
-                                                Analytical Website</h3>
+                                                Website</h3>
                                             <p class="project-description">
-                                                Responsive website</p>
+                                                UI and Feature</p>
                                         </div>
                                     </div>
                                     <!--END ITEM-INFO-OVERLAY-->
                                 </div>
                                 <div class="item-info">
                                     <h4 class="text-dark no-margin p-t-10 title semi-bold">
-                                        Analytical Website</h4>
+                                        Presentation</h4>
                                     <p>
-                                        December 31</p>
+                                        January 10</p>
                                 </div>
                                 <!--END ITEM-INFO-->
                             </li>
@@ -407,7 +185,7 @@
                                 <p>
                                     Phone</p>
                                 <h3>
-                                    +1 555 666 9999</h3>
+                                    +880 15519535969</h3>
                             </div>
                         </div>
                     </div>
@@ -418,7 +196,7 @@
                                 <p>
                                     E-mail</p>
                                 <h3>
-                                    letstalk@thempleite.com</h3>
+                                    letstalk@mic.com</h3>
                             </div>
                         </div>
                     </div>
@@ -429,18 +207,18 @@
                                 <p>
                                     Postal</p>
                                 <h3>
-                                    32-Grey Suite, NY</h3>
+                                    Dept. of CSE, University of Asia Pacific, Dhaka</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="services-box-3">
-                            <i class="fa fa-pinterest-square"></i>
+                            <i class="fa fa-facebook-square"></i>
                             <div class="content">
                                 <p>
-                                    Pinterest</p>
+                                    Facebook</p>
                                 <h3>
-                                    pinterest.com/frittt</h3>
+                                   facebook.com/mic</h3>
                             </div>
                         </div>
                     </div>
@@ -452,24 +230,24 @@
                 <div class="p-t-30 p-b-50">
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 xs-m-b-20">
-                            <img src="assets/img/logo_condensed.png" alt="" data-src="assets/img/logo_condensed.png"
-                                data-src-retina="assets/img/logo2x.png" width="119" height="22" />
+                            <img src="assets/img/logo_mic_sized.png" alt="" data-src="assets/img/logo_mic_sized.png"
+                                data-src-retina="assets/img/logo2x.png" width="97" height="50" />
                             <br />
                             <br />
-                            © Frittt Templates.
+                            © Mic.
                             <br />
                             All Rights Reserved.
                         </div>
                         <div class="col-md-4 col-lg-3 col-sm-4  col-xs-12 xs-m-b-20">
                             <address class="xs-no-padding  col-md-6 col-lg-6 col-sm-6  col-xs-12">
-                                32 - Grey Suite<br>
-                                Odd Street,<br>
-                                NY, USA.
+                                7th Floor, Void Space<br>
+                                UAP Campus,<br>
+                                Farmgate, Dhaka.
                             </address>
                             <div class="xs-no-padding col-md-6 col-lg-6 col-sm-6">
                                 <div>
-                                    (1) 555 666 9999</div>
-                                <a href="javascript:">letstalk@thempleite.com</a>
+                                    +880 155 195 5969</div>
+                                <a href="javascript:">letstalk@mic.com</a>
                             </div>
                             <div class="clearfix">
                             </div>
@@ -477,7 +255,7 @@
                         <div class="col-md-2 col-lg-2 col-sm-2  col-xs-12 xs-m-b-20">
                             <div class="bold">
                                 We Are Hiring</div>
-                            Send you resume at <a href="javascript:">careers@thempleite.com</a>
+                            Send you resume at <a href="javascript:">careers@mic.com</a>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2  col-xs-12 ">
                             <div class="bold">
