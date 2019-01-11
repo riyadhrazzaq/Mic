@@ -134,8 +134,10 @@
                 </div>
             </div>
         </div>
-        <div class="section white" style="height: 350px" id="map">
-        </div>
+        <!--        <div class="section white" style="height: 350px" id="map">
+        </div> -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.791852126898!2d90.38724591445593!3d23.75480089452619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b0a98eaf3b%3A0xc692432124fcc478!2sUniversity+of+Asia+Pacific!5e0!3m2!1sen!2sbd!4v1547089043987" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="section black contact-details green-icons">
             <div class="container">
                 <div class="row">
@@ -245,14 +247,19 @@
     <script>
       var map;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+        var myLatLng = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 4
+        });
+          var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Hello World!'
         });
       }
     </script>
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap" async defer>
-    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap"></script>
     <script src="assets/plugins/jquery-gmap/gmaps.js" type="text/javascript"></script>
     <!-- END JS PLUGIN -->
     <script src="assets/js/google_maps.js" type="text/javascript"></script>
