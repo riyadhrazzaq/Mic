@@ -32,7 +32,7 @@
 <!-- END HEAD -->
 <body>
 <?php
-// include("asset_php/sessionManager.php");
+ include("asset_php/sessionManager.php");
 include('asset_php/connect.php');
 
 $msg = "";
@@ -149,7 +149,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                 <li><a href="tour.php">Tour</a></li>
                                 <li><a href="portfolio.php">Portfolio</a></li>
                                 <li><a href="contact.php">Contact</a></li>
-                                <li><a href="login.php">Login</a></li>
+                
                             </ul>
                         </div>
                     <!--/.nav-collapse -->

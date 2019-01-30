@@ -29,6 +29,30 @@
 </head>
 <!-- END HEAD -->
 <body >
+
+    <?php 
+        $x = 'hidden';
+        if($_SERVER["REQUEST_METHOD"] == "POST"){
+            $x = 'visible';
+            $fname = $_POST['txtFirstName'];
+            $lname = $_POST['txtLastName'];
+            $company = $_POST['txtCompany'];
+            $from = $_POST['txtEmailAddress'];
+            $msg = $_POST['txtMessage'];
+            $to = "riyadh.razzaq@gmail.com";
+            $emailSubject = "Contact Form";
+            $mailheader = "From: ".$from."\r\n";
+            $mailheader .= "Reply-To: ".$from."\r\n"; 
+            $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+            $MESSAGE_BODY = "Name: ".$fname.$lname.""; 
+            $MESSAGE_BODY .= "Email: ".$from."";
+            $MESSAGE_BODY .= "Message: ".nl2br($msg)."";
+            mail($to, $emailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
+
+        }
+
+    ?>
+
     <div class="main-wrapper">
     <div role="navigation" class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -49,7 +73,7 @@
                                 <li><a href="tour.php">Tour</a></li>
                                 <li><a href="portfolio.php">Portfolio</a></li>
                                 <li><a href="contact.php">Contact</a></li>
-                                <li><a href="login.php">Login</a></li>
+                    
                             </ul>
                         </div>
                     <!--/.nav-collapse -->
@@ -68,7 +92,7 @@
                 <div class=" p-b-60">
                     <div class="row p-t-30">
                         <div class="col-md-6 col-sm-6">
-						<form id="contact_form" method="post" action="#">
+						<form id="contact_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                             <div class="row form-row">
                                 <div class="col-md-10">
                                     <input name="txtFirstName" id="textFirstName" type="text" class="form-control "
@@ -100,7 +124,7 @@
                             </div>
                             <div class="row form-row">
                                 <div class="col-md-10">
-                                    <button type="button" id="button-send" class="btn btn-primary btn-cons">
+                                    <button type="submit" id="button-send" class="btn btn-primary btn-cons" name="Submit" value="send">
                                         Send</button>
                                 </div>
 								<div id="success">Your message has been successfully!</div>

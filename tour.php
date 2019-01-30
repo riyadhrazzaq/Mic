@@ -51,7 +51,7 @@
                                 <li><a href="tour.php">Tour</a></li>
                                 <li><a href="portfolio.php">Portfolio</a></li>
                                 <li><a href="contact.php">Contact</a></li>
-                                <li><a href="login.php">Login</a></li>
+            
                             </ul>
                         </div>
                     <!--/.nav-collapse -->
